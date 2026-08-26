@@ -1,4 +1,3 @@
----
 🧺 Primeros pasos y ejemplos en PHP
 Este repositorio reúne diversos casos prácticos desarrollados en PHP ideados para comprender y afianzar los fundamentos del lenguaje, entre ellos:
 
