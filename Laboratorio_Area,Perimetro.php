@@ -14,9 +14,11 @@
         <button type="submit">Calcular</button>
 </form>
 <?php 
+// Comentario: Declaración del radio fijo según la guía
 if (isset($_GET['radio']) && $_GET['radio'] !== "") {
         $r = floatval($_GET['radio']); // Convertimos el valor a número decimal
         if ($r >= 0) {
+// Comentario: Cálculo del área y perímetro usando la constante M_pI
             $area = M_PI * pow($r, 2);
             $perimetro = 2 * M_PI * $r;
         echo "<strong>Radio ingresado:</strong> $r <br><br>";
